@@ -36,7 +36,7 @@ public class VistaLogin extends javax.swing.JFrame {
     }
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel2 = new javax.swing.JPanel();
@@ -125,44 +125,44 @@ public class VistaLogin extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>                        
+    }// </editor-fold>//GEN-END:initComponents
 
-    private void btnEntrarMouseEntered(java.awt.event.MouseEvent evt) {                                       
+    private void btnEntrarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseEntered
         Icon btnEntrarAzul = new ImageIcon("src//Imagenes//BotonesLogin//00-EntrarAzul-img.png");
         btnEntrar.setIcon(btnEntrarAzul);
-    }                                      
+    }//GEN-LAST:event_btnEntrarMouseEntered
 
-    private void btnEntrarMouseExited(java.awt.event.MouseEvent evt) {                                      
+    private void btnEntrarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseExited
         Icon btnEntrarGris = new ImageIcon("src//Imagenes//BotonesLogin//00-EntrarGris-img.png");
         btnEntrar.setIcon(btnEntrarGris);
-    }                                     
+    }//GEN-LAST:event_btnEntrarMouseExited
 
-    private void btnRegistrarseMouseEntered(java.awt.event.MouseEvent evt) {                                            
+    private void btnRegistrarseMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegistrarseMouseEntered
         Icon btnRegistrarseAzul = new ImageIcon("src//Imagenes//BotonesLogin//00-RegistrarseAzul-img.png");
         btnRegistrarse.setIcon(btnRegistrarseAzul);
-    }                                           
+    }//GEN-LAST:event_btnRegistrarseMouseEntered
 
-    private void btnRegistrarseMouseExited(java.awt.event.MouseEvent evt) {                                           
+    private void btnRegistrarseMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegistrarseMouseExited
         Icon btnRegistrarseGris = new ImageIcon("src//Imagenes//BotonesLogin//00-RegistrarseGris-img.png");
         btnRegistrarse.setIcon(btnRegistrarseGris);
-    }                                          
+    }//GEN-LAST:event_btnRegistrarseMouseExited
 
-    private void txtUsuarioMouseClicked(java.awt.event.MouseEvent evt) {                                        
+    private void txtUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtUsuarioMouseClicked
 
-    }                                       
+    }//GEN-LAST:event_txtUsuarioMouseClicked
 
-    private void txtPasswordMouseClicked(java.awt.event.MouseEvent evt) {                                         
+    private void txtPasswordMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtPasswordMouseClicked
         
-    }                                        
+    }//GEN-LAST:event_txtPasswordMouseClicked
 
-    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {                                           
+    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
         // TODO add your handling code here:
-    }                                          
+    }//GEN-LAST:event_txtUsuarioActionPerformed
 
-    private void txtPasswordFocusGained(java.awt.event.FocusEvent evt) {                                        
+    private void txtPasswordFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtPasswordFocusGained
         txtPassword.setText("");
         txtPassword.setForeground(Color.black);
-    }                                       
+    }//GEN-LAST:event_txtPasswordFocusGained
 
     /**
      * @param args the command line arguments
@@ -217,12 +217,12 @@ public class VistaLogin extends javax.swing.JFrame {
 
 
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnEntrar;
     private javax.swing.JLabel btnRegistrarse;
     private javax.swing.JLabel fondoLogin;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtPassword;
     private javax.swing.JTextField txtUsuario;
-    // End of variables declaration                   
+    // End of variables declaration//GEN-END:variables
 }
