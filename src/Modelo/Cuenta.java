@@ -76,15 +76,5 @@ public class Cuenta {
     public int getIdCuenta() {
         return idCuenta;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 }
