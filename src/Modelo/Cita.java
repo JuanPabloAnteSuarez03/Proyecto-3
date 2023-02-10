@@ -108,13 +108,4 @@ public class Cita {
         return "Cita{" + "idCita=" + idCita + ", fecha=" + fecha + ", hora=" + hora + ", piso=" + piso + ", sala=" + sala + ", idAfiliado=" + idAfiliado + ", idTrabajador=" + idTrabajador + '}';
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
