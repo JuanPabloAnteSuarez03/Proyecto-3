@@ -251,12 +251,4 @@ public class Informacion {
     public void setCitaActualInfo(Cita citaActualInfo) {
         this.citaActualInfo = citaActualInfo;
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }
